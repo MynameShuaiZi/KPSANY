@@ -7,6 +7,7 @@ import '../src/assets/style/reset.css'
 import store from './store'
 import api from './services/api'
 
+
 Vue.config.productionTip = false
 import FastClick from 'fastclick'
 FastClick.attach(document.body);

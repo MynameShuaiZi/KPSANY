@@ -8,8 +8,8 @@ const routers = [
   /**首页*/
   {
     path: '/',
-    name: 'HelloWorld',
-    component: resolve => require(['../components/HelloWorld'], resolve)
+    name: 'home',
+    component: resolve => require(['../views/home/home'], resolve)
   },
   /**待办~已办~通告*/
 ];
