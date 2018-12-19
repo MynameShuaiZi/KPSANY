@@ -6,6 +6,7 @@ import router from './router'
 import '../src/assets/style/reset.css'
 import store from './store'
 import api from './services/api'
+import '../src/assets/font/iconfont.css'
 
 
 Vue.config.productionTip = false

@@ -1,16 +1,15 @@
 <template>
     <div class='home'>
-        <van-swipe :autoplay="3000" indicator-color="white">
-            <van-swipe-item>1</van-swipe-item>
-            <van-swipe-item>2</van-swipe-item>
-            <van-swipe-item>3</van-swipe-item>
-            <van-swipe-item>4</van-swipe-item>
-        </van-swipe>
+        <swipe></swipe>
+        <sort-list></sort-list>
+        <part-show-list></part-show-list>
     </div>
 </template>
 
 <script>
-
+import swipe from './swipe';
+import sortList from './sortList';
+import partShowList from './partShowList';
 
 export default {
     name:'home',
@@ -18,10 +17,12 @@ export default {
 
     },
     components:{
+        swipe,
+        sortList,
+        partShowList
     },
     data(){
         return {
-
         }
     },
     methods:{
@@ -33,8 +34,6 @@ export default {
 }
 </script>
 
-<style>
-.home{
+<style lang="less" rel="stylesheet/less">
 
-}
 </style>
